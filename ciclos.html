@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Ciclos</title>
+	<script type="text/javascript">
+function inicio () 
+{
+	var c = document.getElementById("caja");
+	var gritos = 10;
+
+	while(gritos > 0)
+	{
+		c.innerHTML += "s";
+		// -- o ++ para sumar o restar solo 1
+		gritos = gritos - 1;
+	}
+	c.innerHTML += "hh!";
+}
+	</script>
+</head>
+<body>
+	<div id="caja">Holaa!!</div>
+	<div>Otra caja!!</div>
+	<script type="text/javascript">
+	inicio();
+	</script>
+</body>
+</html>
